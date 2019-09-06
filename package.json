@@ -1,0 +1,21 @@
+{
+  "name": "satisfy",
+  "version": "1.0.0",
+  "description": "A testing utility to generate JSON objects that meet a schema",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "nyc npm run test-unit",
+    "test-unit": "NODE_ENV=test ava"
+  },
+  "keywords": [
+    "test",
+    "json",
+    "schema"
+  ],
+  "author": "Sriram Balachandran",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^2.3.0",
+    "nyc": "^14.1.1"
+  }
+}
