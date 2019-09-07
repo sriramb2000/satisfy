@@ -1,5 +1,5 @@
 {
-  "name": "satisfy",
+  "name": "@sriramb2000/satisfy",
   "version": "1.0.0",
   "description": "A testing utility to generate JSON objects that meet a schema",
   "main": "src/index.js",
@@ -17,5 +17,9 @@
   "devDependencies": {
     "ava": "^2.3.0",
     "nyc": "^14.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sriramb2000/satisfy.git"
   }
 }
